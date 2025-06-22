@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import one from "../../assets/one.jpg";
 export default function Home() {
   return (
     <div className="w-full mx-auto max-w-7xl">
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="absolute inset-0 w-full h-full pt-12 sm:my-20 sm:pt-1 ">
           <img
             className="w-96"
-            src="https://i.ibb.co/5BCcDYB/Remote2.png"
+            src={one}
             alt="image1"
           />
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
       <div className="grid place-items-center sm:mt-20">
         <img
           className="w-48 sm:w-96"
-          src="https://i.ibb.co/2M7rtLk/Remote1.png"
+          src={one}
           alt="image2"
         />
       </div>
